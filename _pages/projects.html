@@ -1,0 +1,22 @@
+---
+title: "Projects"
+permalink: /projects/
+layout: archive
+---
+
+{% include base_path %}
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+{% if site.projects %}
+  {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+  {% for post in sorted_projects %}
+    {% include archive-single-project.html %}
+  {% endfor %}
+
+  {% include paginator.html %}
+{% endif %} 
