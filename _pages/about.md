@@ -44,7 +44,7 @@ Work experience
   *Nov 2021 - Apr 2024 &middot; Geneva, Switzerland*
   * Founder and team lead of the Phillips Exeter Academy CERN Beamline for Schools team (2022: shortlisted among the top 24 teams globally, 2023: 1 of 3 global winning teams). Performed our experiment at CERN’s proton-synchrotron T10 test-beam and presented our findings at the 12th Beam Telescopes and Test Beams Workshop (BTTB12).
 
-* **Nuclear Physics Intern @ RIKEN**  
+* **Nuclear Physics Intern @ RIKEN Nishina Center for Accelerator-Based Science (RNC)**  
   *Jul 2023 - Aug 2023 &middot; Tokyo, Japan*
   * Conducted pelletron accelerator experiments to investigate proton-induced gamma ray emission cross sections for a 27-Al target. Data analysis and research findings culminated in an oral presentation given before RNC researchers.
 
