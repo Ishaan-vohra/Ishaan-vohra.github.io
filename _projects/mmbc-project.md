@@ -3,7 +3,7 @@ title: "Computational Neutrino Flux Optimization for Bubble Chamber at Fermilab'
 collection: projects
 layout: single
 permalink: /project/dunebubblechamber
-excerpt: 'This is a sample project to test the projects page functionality.'
+excerpt: #
 date: 2023-06-06
 venue: 'Fermilab Deep Underground Neutrino Experiment (DUNE) Summer Research Internship Project' 
 author: 'Ishaan Vohra'

@@ -3,7 +3,7 @@ title: "Radio-frequency Matrix-Vector Multiplication: An Analog Computing Proof 
 collection: projects
 layout: single
 permalink: /project/rfmatrixvectormultiplication
-excerpt: 'This is a sample project to test the projects page functionality.'
+excerpt: #
 date: 2025-05-13
 venue: 'MIT 6.2300 (Electromagnetic Waves and Applications) Final Project'
 author: 'Fadi Farag, Dominic Stewart-Guido, <u>Ishaan Vohra</u>'
