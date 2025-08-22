@@ -47,7 +47,7 @@ Work Experience
       * Implemented electromagnetic quasielastic (QE) scattering models in the GENIE Event Generator based on response functions derived from quantum Monte Carlo methods which solve the many-body nuclear problem in the short-time approximation (STA). Performed comparisons between novel cross section implementation in the GENIE Event Generator and world QE inclusive scattering data. Mentored by Dr. Joshua Barrow and Dr. Steven Gardiner.
     * Deep Underground Neutrino Experiment (DUNE) Collaborator  
       *Jun 2023 - Sep 2023*  
-      * Designed neutrino flux optimization simulations in Geant4 for the position of a modern modular bubble chamber (MMBC) as a member of the Ramson Group, serving the overall goal of decreasing the neutrino cross section uncertainties for the Deep Underground Neutrino Experiment (DUNE). Mentored by Dr. Bryan Ramson.
+      * Designed and performed neutrino flux optimization simulations in Geant4 for the position of a modern modular bubble chamber (MMBC) as a member of the Ramson Group, serving the overall goal of decreasing the neutrino cross section uncertainties for the Deep Underground Neutrino Experiment (DUNE). Mentored by Dr. Bryan Ramson.
 
 * **Founder and Team Lead, Winning Beamline Competition Team @ CERN**  
   *Nov 2021 - Apr 2024 &middot; Geneva, Switzerland*
