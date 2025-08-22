@@ -11,7 +11,7 @@ Hi, I'm Ishaan. I'm an undergraduate student at MIT studying Physics and Electri
 
 I have previously worked on nano-electronic neural interfaces in the MIT Media Lab, building on my background in computational nuclear and particle physics at CERN, Fermilab, RIKEN, and the University of Liverpool. Beyond research and engineering, I [compose, mix, and master electronic music](https://www.youtube.com/@eleronmusic), and enjoy playing badminton on the MIT club team.
 
-I'm on a mission (or at least a well-intentioned attempt) to do my part for the advancement of civilization, applying scientific principles to create large-scale impact.
+I'm on a mission (or at least a well-intentioned attempt) to do my part for the advancement of civilization – developing, applying, and scaling up science and engineering ideas to create large-scale technological impact.
 
 
 Education
