@@ -47,7 +47,7 @@ Work Experience
       * Implemented electromagnetic quasielastic (QE) scattering models in the GENIE Event Generator based on response functions derived from quantum Monte Carlo methods which solve the many-body nuclear problem in the short-time approximation (STA). Performed comparisons between novel cross section implementation in the GENIE Event Generator and world QE inclusive scattering data. Mentored by Dr. Joshua Barrow and Dr. Steven Gardiner.
     * Deep Underground Neutrino Experiment (DUNE) Collaborator  
       *Jun 2023 - Sep 2023*  
-      * Designed neutrino flux optimization simulations in Geant4 for the position of a modern modular bubble chamber (MMBC) as a member of the Ramson Group, serving the overall goal of decreasing the neutrino cross section uncertainties for the Deep Underground Neutrino Experiment (DUNE).
+      * Designed neutrino flux optimization simulations in Geant4 for the position of a modern modular bubble chamber (MMBC) as a member of the Ramson Group, serving the overall goal of decreasing the neutrino cross section uncertainties for the Deep Underground Neutrino Experiment (DUNE). Mentored by Dr. Bryan Ramson.
 
 * **Founder and Team Lead, Winning Beamline Competition Team @ CERN**  
   *Nov 2021 - Apr 2024 &middot; Geneva, Switzerland*
@@ -59,7 +59,7 @@ Work Experience
 
 * **Honorary Research Fellow in Computational Particle Physics @ University of Liverpool**  
   *May 2022 - Dec 2022 &middot; Liverpool, United Kingdom*
-  * Simulated neutrino-nucleon scattering and secondary particle detector response using the GENIE Monte Carlo event generator under the guidance of Prof. Costas Andreopoulos and Dr. Marco Roda of the University of Liverpool.
+  * Developed neutrino interaction models with the GENIE Event Generator; created NuSmear, a software package for fast simulation of detector smearing which was accepted into the GENIE contribution database, accessible to physicists worldwide. Presented at the 14th Conference on the Intersections of Particle and Nuclear Physics (CIPANP); sole-authored a conference paper. Supervised by Prof. Costas Andreopoulos and mentored by Dr. Marco Roda.
 
   
 
