@@ -33,7 +33,7 @@ Work Experience
 ======
 * **Photonic Computing Researcher @ Quantum Photonics and AI Group, MIT RLE**  
   *Mar 2025 - Present &middot; Cambridge, MA, USA*
-  * Building a closed-loop, highly-parallelized laser hologram system to correct the resonant wavelengths of silicon microring resonators in photonic integrated circuits (PICs) for use in optical neural networks (ONNs). Programming an adaptive spatial light modulator (SLM) control system to guide laser trimming beams based on dynamic characterization of the microring resonance profiles performed by a separate tunable laser and camera readout. Supervised by Prof. Dirk Englund and Dr. Ryan Hamerly, and mentored by Dr. Chao Luan.
+  * Building a closed-loop, highly-parallelized holographic laser system to correct the resonant wavelengths of silicon microring resonators in photonic integrated circuits (PICs) for use in optical neural networks (ONNs). Programming an adaptive spatial light modulator (SLM) control system to guide laser trimming beams based on dynamic characterization of the microring resonance profiles performed by a separate tunable laser and camera readout. Supervised by Prof. Dirk Englund and Dr. Ryan Hamerly, and mentored by Dr. Chao Luan.
 
 
 * **Nano-Bioelectronics Researcher @ NCB Lab, MIT Media Lab**  
