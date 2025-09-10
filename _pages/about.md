@@ -31,7 +31,8 @@ Language Skills and Technical Tools
 
 Work Experience
 ======
-* **Robot Learning Researcher @ Distributed Robotics Lab, MIT CSAIL**
+
+* **Robot Learning Researcher @ Distributed Robotics Lab, MIT CSAIL**  
   *Sep 2025 - Present &middot; Cambridge, MA, USA*
   * Developing a Genesis-based synthetic environment generation system to train visual drone policies that generalize across out-of-distribution (OOD) scenes. We iteratively train on new environments, critique failure modes in the drone policy using foundation models, and update the parameters of our domain randomization data curricula to systematically improve model generalization. We further run ablations to produce actionable guidelines for OOD robustness. Supervised by Prof. Daniela Rus and mentored by Makram Chahine.
 
