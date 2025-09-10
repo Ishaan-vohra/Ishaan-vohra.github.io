@@ -72,4 +72,4 @@ Work Experience
 Additional Positions
 ======
 * MIT Music Production Collaborative, Executive Leadership Team
-* MIT Badminton Club, Treasury Management
+* MIT Badminton Club, Competitive Team Member
