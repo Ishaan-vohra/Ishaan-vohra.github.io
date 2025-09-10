@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Ishaan. I'm an undergraduate student at MIT studying Physics and Electrical Engineering & Computer Science (EECS). I conduct research in optical computing and silicon photonics for AI hardware in the [Quantum Photonics and AI Group](https://qp.mit.edu/) led by Prof. Dirk Englund at [MIT RLE](https://www.rle.mit.edu/).
+Hi, I'm Ishaan. I'm an undergraduate student at MIT studying Electrical Engineering & Computer Science (EECS) and Physics. I conduct research in robot learning and visuomotor synthetic data in the [Disitributed Robotics Laboratory (DRL)](https://www.csail.mit.edu/research/distributed-robotics-laboratory) led by Prof. Daniela Rus within the [MIT Computer Science and AI Laboratory (CSAIL)](https://www.csail.mit.edu/).
 
-I have previously worked on nano-electronic neural interfaces in the MIT Media Lab, building on my background in computational nuclear and particle physics at CERN, Fermilab, RIKEN, and the University of Liverpool. Beyond research and engineering, I [compose, mix, and master electronic music](https://www.youtube.com/@eleronmusic), and enjoy playing badminton on the MIT club team.
+I have previously worked on integrated photonics and optical computing for ML hardware at the MIT Research Laboratory of Electronics (RLE), nano-electronic neural interfaces in the MIT Media Lab, and computational nuclear and particle physics at CERN, Fermilab, RIKEN, and the University of Liverpool. Beyond research and engineering, I [compose, mix, and master electronic music](https://www.youtube.com/@eleronmusic), and enjoy playing badminton on the MIT club team.
 
 I'm on a mission (or at least a well-intentioned attempt) to do my part for the advancement of civilization – developing, implementing, and scaling up science and engineering ideas to create large-scale technological impact.
 
@@ -31,6 +31,11 @@ Language Skills and Technical Tools
 
 Work Experience
 ======
+* **Robot Learning Researcher @ Distributed Robotics Lab, MIT CSAIL**
+  *Sep 2025 - Present &middot; Cambridge, MA, USA*
+  Developing a Genesis-based synthetic environment generation system to train visual drone policies that generalize across out-of-distribution (OOD) scenes. We iteratively train on new environments, critique failure modes in the drone policy using foundation models, and update the parameters of our domain randomization data curricula to systematically improve model generalization. We further run ablations to produce actionable guidelines for OOD robustness. Supervised by Prof. Daniela Rus and mentored by Makram Chahine.
+
+
 * **Photonic Computing Researcher @ Quantum Photonics and AI Group, MIT RLE**  
   *Mar 2025 - Present &middot; Cambridge, MA, USA*
   * Building a closed-loop, highly-parallelized holographic laser system to correct the resonant wavelengths of silicon microring resonators in photonic integrated circuits (PICs) for use in optical neural networks (ONNs). Programming an adaptive spatial light modulator (SLM) control system to guide laser trimming beams based on dynamic characterization of the microring resonance profiles performed by a separate tunable laser and camera readout. Supervised by Prof. Dirk Englund and Dr. Ryan Hamerly, and mentored by Dr. Chao Luan.
