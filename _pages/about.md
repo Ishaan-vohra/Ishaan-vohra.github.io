@@ -34,7 +34,7 @@ Work Experience
 
 * **Robot Learning Researcher @ Distributed Robotics Lab, MIT CSAIL**  
   *Sep 2025 - Present &middot; Cambridge, MA, USA*
-  * Developing a synthetic environment generation system to train visual drone policies that demonstrate superior generalization across out-of-distribution (OOD) scenes. Our closed loop iterative system trains on new environments, critiques failure modes in the drone policy using foundation models, and updates the parameters of our domain randomization data curricula to systematically improve model generalization. We further run ablations to produce actionable guidelines for OOD robustness. Supervised by Prof. Daniela Rus and mentored by Makram Chahine.
+  * Developing a synthetic environment generation system to train visual drone policies that demonstrate superior generalization across out-of-distribution (OOD) scenes. Our closed-loop iterative system trains on new environments, critiques failure modes in the drone policy using foundation models, and updates domain randomization parameters to systematically improve model generalization. We further run ablation studies to produce actionable guidelines for OOD robustness. Supervised by Prof. Daniela Rus and mentored by Makram Chahine.
 
 
 * **Photonic Computing Researcher @ Quantum Photonics and AI Group, MIT RLE**  
