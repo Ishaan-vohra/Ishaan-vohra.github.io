@@ -26,7 +26,7 @@ Language Skills and Technical Tools
 
 * **Programming Languages:** Python, C++, Mathematica, Shell Scripting
 
-* **Technologies and Packages:** Genesis, NVIDIA IsaacGym, PyTorch, AWS (Cloud Computing), High Performance/Cluster Computing, Docker, COMSOL Multiphysics, ANSYS Electronics, ANSYS Lumerical, SolidWorks, CERN Root, Geant4, Git
+* **Technologies and Packages:** PyTorch, NVIDIA IsaacGym, AWS (Cloud Computing), Genesis, High Performance/Cluster Computing, Docker, COMSOL Multiphysics, ANSYS Electronics, ANSYS Lumerical, SolidWorks, CERN Root, Geant4, Git
 
 
 Work Experience
