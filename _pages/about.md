@@ -20,14 +20,15 @@ Education
   * S.B. in Physics
   * S.B. in Electrical Engineering with Computing
 
-Language Skills and Technical Tools
+Skills
 ======
-* **Languages:** English, Mandarin, Spanish
+* **Programming Languages:** Python, C/C++, Julia, Lisp, Wolfram Language, Shell Scripting (Bash, PowerShell)
 
-* **Programming Languages:** Python, C++, Mathematica, Shell Scripting
+* **Machine Learning**: PyTorch, NVIDIA IsaacGym, Genesis, AWS (Cloud Computing), High Performance/Cluster Computing
 
-* **Technologies and Packages:** PyTorch, NVIDIA IsaacGym, AWS (Cloud Computing), Genesis, High Performance/Cluster Computing, Docker, COMSOL Multiphysics, ANSYS Electronics, ANSYS Lumerical, SolidWorks, CERN Root, Geant4, Git
+* **Physical Simulation**: ANSYS (Electronics, Maxwell, Lumerical), COMSOL Multiphysics, LTspice, SolidWorks, Tidy3D, Geant4
 
+* **Additional Software**: NumPy, Matplotlib, Git, Docker, CERN Root, SLMSuite, Linux
 
 Work Experience
 ======
