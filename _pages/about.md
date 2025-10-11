@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Ishaan. I'm an undergraduate student at MIT studying Electrical Engineering & Computer Science (EECS) and Physics. I conduct research in robot learning and visuomotor synthetic data in the [Disitributed Robotics Laboratory (DRL)](https://www.csail.mit.edu/research/distributed-robotics-laboratory) led by Prof. Daniela Rus within the [MIT Computer Science and AI Laboratory (CSAIL)](https://www.csail.mit.edu/).
+Hi, I'm Ishaan. I'm an undergraduate student at MIT studying artificial intelligence and machine learning for robotics. I conduct research in robot learning and visuomotor synthetic data in the [Disitributed Robotics Laboratory (DRL)](https://www.csail.mit.edu/research/distributed-robotics-laboratory) led by Prof. Daniela Rus within the [MIT Computer Science and AI Laboratory (CSAIL)](https://www.csail.mit.edu/).
 
 I have previously worked on integrated photonics and optical computing for ML hardware at the MIT Research Laboratory of Electronics (RLE), nano-electronic neural interfaces in the MIT Media Lab, and computational nuclear and particle physics at CERN, Fermilab, RIKEN, and the University of Liverpool. Beyond research and engineering, I [compose, mix, and master electronic music](https://www.youtube.com/@eleronmusic), and enjoy playing badminton on the MIT club team.
 
@@ -17,8 +17,7 @@ I'm on a mission (or at least a well-intentioned attempt) to do my part for the 
 Education
 ======
 * **Massachusetts Institute of Technology, 2028 (expected)**
-  * S.B. in Physics
-  * S.B. in Electrical Engineering with Computing
+  * S.B. in Artificial Intelligence and Decision Making
 
 Skills
 ======
