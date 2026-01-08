@@ -23,7 +23,7 @@ Skills
 ======
 * **Programming Languages:** Python, C/C++, Julia, Lisp, Wolfram Language, Shell Scripting
 
-* **Machine Learning**: PyTorch, Mujoco, NVIDIA IsaacGym, AWS, High Performance/Cluster Computing, Generative Simulation
+* **Robotics and Machine Learning**: PyTorch, Mujoco, NVIDIA IsaacGym, AWS, High Performance/Cluster Computing, Generative Simulation
 
 * **Physical Simulation**: ANSYS (Electronics, Maxwell, Lumerical), COMSOL Multiphysics, SolidWorks, LTspice, Tidy3D, Geant4
 
