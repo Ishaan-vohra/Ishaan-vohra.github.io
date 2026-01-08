@@ -92,7 +92,7 @@ teaser                   :  # filename of teaser fallback teaser image placed in
 # SEO and Search Engine Settings
 google_site_verification : "googleb3e23edc26185098"
 google_analytics         : # Add your Google Analytics tracking ID here
-google_analytics_4       : # Add your Google Analytics 4 measurement ID here
+google_analytics_4       : G-BFRQP6WMN7
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
