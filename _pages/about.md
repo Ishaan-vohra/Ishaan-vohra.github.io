@@ -9,7 +9,7 @@ redirect_from:
 
 Hi, I'm Ishaan. I'm an undergraduate student at MIT studying robot learning. I conduct research in visuomotor synthetic data and generative simulation in the [Disitributed Robotics Laboratory (DRL)](https://www.csail.mit.edu/research/distributed-robotics-laboratory) led by Prof. Daniela Rus within the [MIT Computer Science and AI Laboratory (CSAIL)](https://www.csail.mit.edu/).
 
-I have previously worked on integrated photonics and optical computing for ML hardware at the MIT Research Laboratory of Electronics (RLE), nano-electronic neural interfaces in the MIT Media Lab, and computational nuclear and particle physics at CERN, Fermilab, RIKEN, and the University of Liverpool. Outside of robotics, I produce electronic music and play badminton on the MIT club team, and I also enjoy squash, skiing, and table tennis.
+I have previously worked on integrated photonics and optical computing for ML hardware at the MIT Research Laboratory of Electronics (RLE), nano-electronic neural interfaces in the MIT Media Lab, and computational nuclear and particle physics at CERN, Fermilab, RIKEN, and the University of Liverpool. Outside of robotics, I produce electronic music and play badminton on the MIT club team, and also enjoy squash, skiing, and table tennis.
 
 I'm on a mission (or at least a well-intentioned attempt) to do my part for the advancement of civilization – developing, implementing, and scaling up science and engineering ideas to create large-scale technological impact.
 
