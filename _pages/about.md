@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Ishaan. I'm an undergraduate student at MIT studying artificial intelligence and machine learning for robotics. I conduct research in visuomotor synthetic data and generative simulation in the [Disitributed Robotics Laboratory (DRL)](https://www.csail.mit.edu/research/distributed-robotics-laboratory) led by Prof. Daniela Rus within the [MIT Computer Science and AI Laboratory (CSAIL)](https://www.csail.mit.edu/).
+Hi, I'm Ishaan. I'm an undergraduate student at MIT studying robot learning. I conduct research in visuomotor synthetic data and generative simulation in the [Disitributed Robotics Laboratory (DRL)](https://www.csail.mit.edu/research/distributed-robotics-laboratory) led by Prof. Daniela Rus within the [MIT Computer Science and AI Laboratory (CSAIL)](https://www.csail.mit.edu/).
 
-I have previously worked on integrated photonics and optical computing for ML hardware at the MIT Research Laboratory of Electronics (RLE), nano-electronic neural interfaces in the MIT Media Lab, and computational nuclear and particle physics at CERN, Fermilab, RIKEN, and the University of Liverpool. Beyond research and engineering, I [compose, mix, and master electronic music](https://www.youtube.com/@eleronmusic), and enjoy playing badminton on the MIT club team.
+I have previously worked on integrated photonics and optical computing for ML hardware at the MIT Research Laboratory of Electronics (RLE), nano-electronic neural interfaces in the MIT Media Lab, and computational nuclear and particle physics at CERN, Fermilab, RIKEN, and the University of Liverpool. Beyond research and engineering, I [compose, mix, and master electronic music](https://www.youtube.com/@eleronmusic), and enjoy playing badminton on the MIT club team. Squash, skiing, and table tennis are also plenty of fun.
 
 I'm on a mission (or at least a well-intentioned attempt) to do my part for the advancement of civilization – developing, implementing, and scaling up science and engineering ideas to create large-scale technological impact.
 
@@ -21,25 +21,30 @@ Education
 
 Skills
 ======
-* **Programming Languages:** Python, C/C++, Julia, Lisp, Wolfram Language, Shell Scripting (Bash, PowerShell)
+* **Programming Languages:** Python, C/C++, Julia, Lisp, Wolfram Language, Shell Scripting
 
-* **Machine Learning**: PyTorch, NVIDIA IsaacGym, Genesis, AWS (Cloud Computing), High Performance/Cluster Computing
+* **Machine Learning**: PyTorch, Mujoco, NVIDIA IsaacGym, AWS, High Performance/Cluster Computing, Generative Simulation
 
-* **Physical Simulation**: ANSYS (Electronics, Maxwell, Lumerical), COMSOL Multiphysics, LTspice, SolidWorks, Tidy3D, Geant4
+* **Physical Simulation**: ANSYS (Electronics, Maxwell, Lumerical), COMSOL Multiphysics, SolidWorks, LTspice, Tidy3D, Geant4
 
-* **Additional Software**: Git/GitHub, NumPy, Matplotlib, Docker, CERN Root, SLMSuite, Linux, Jupyter, Pandas, Arduino
+* **Additional Software**: Git/GitHub, NumPy, Pandas, Matplotlib, Docker, Linux, Jupyter, Arduino, CERN Root
 
 Work Experience
 ======
 
-* **Robot Learning Researcher @ Distributed Robotics Lab, MIT CSAIL**  
+* **Robot Learning Engineering Intern @ Stealth Robotics Startup**  
+  *Jan 2026 - Present &middot; Cambridge, MA, USA*
+  * Building production-scale 3D asset generation pipelines to support enterprise robotics clients; generating photorealistic and physically-realistic robot simulation environments from image and video sources.
+  * Adapting and implementing visual data augmentation algorithms to improve robustness of visual robot policies trained in simulation.
+
+* **Undergraduate Researcher @ Distributed Robotics Lab, MIT CSAIL**  
   *Sep 2025 - Present &middot; Cambridge, MA, USA*
   * Building a synthetic environment generation system to train visual drone policies that demonstrate superior generalization across out-of-distribution (OOD) scenes.
   * Developing novel differentiable simulation methods to iteratively optimize domain randomization parameters for test-time performance.
   * Supervised by Prof. Daniela Rus and mentored by Makram Chahine.
 
 
-* **Photonic Computing Researcher @ Quantum Photonics and AI Group, MIT RLE**  
+* **Undergraduate Researcher @ Quantum Photonics and AI Group, MIT RLE**  
   *Mar 2025 - Oct 2025 &middot; Cambridge, MA, USA*
   * Built a closed-loop, highly-parallelized holographic laser system to correct the resonant wavelengths of silicon microring resonators in photonic integrated circuits (PICs) for use in optical neural networks (ONNs).
   * Programmed an adaptive spatial light modulator (SLM) control system to guide laser trimming beams based on dynamic characterization of the microring resonance profiles performed by a separate tunable laser and camera readout.
@@ -67,13 +72,18 @@ Work Experience
   * Conducted pelletron accelerator experiments to investigate proton-induced gamma ray emission cross sections for a 27-Al target. 
   * Data analysis and research findings culminated in an oral presentation given before RNC researchers.
 
-* **Honorary Research Fellow in Computational Particle Physics @ University of Liverpool**  
+* **Honorary Research Fellow in Particle Physics @ University of Liverpool**  
   *May 2022 - Dec 2022 &middot; Liverpool, United Kingdom*
   * Developed neutrino interaction models with the GENIE Event Generator; created NuSmear, a software package for fast simulation of detector smearing which was accepted into the GENIE contribution database, accessible to physicists worldwide. 
   * Presented at the 14th Conference on the Intersections of Particle and Nuclear Physics (CIPANP); sole-authored a conference paper. 
   * Supervised by Prof. Costas Andreopoulos and mentored by Dr. Marco Roda.
 
-  
+Awards and Competitions
+======
+* Global Winner and Team Lead: CERN Beamline Competition (‘23) 
+* Finalist: International Songwriting Competition (‘21, ‘23), USA Songwriting Competition ('23), UK Songwriting Competition ('21)
+* 2nd: US Invitational Young Physicists’ Tournament (‘23, ‘24)
+* Silver in Physics, North American Finals, S.T. Yau Science Award (‘22)
 
 Activities and Societies
 ======
