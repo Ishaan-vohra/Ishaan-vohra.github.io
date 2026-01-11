@@ -34,7 +34,7 @@ Work Experience
 
 * **Robot Learning Engineering Intern @ Stealth Robotics Startup**  
   *Jan 2026 - Present &middot; Cambridge, MA, USA*
-  * Building production-scale 3D asset generation pipelines to support enterprise robotics clients; generating photorealistic and physically-realistic robot simulation environments from image and video sources.
+  * Building end-to-end scalable 3D asset generation pipelines to support enterprise robotics clients; generating photorealistic and physically-realistic robot simulation environments from image and video sources.
   * Adapting and implementing visual data augmentation algorithms to improve robustness of visual robot policies trained in simulation.
 
 * **Undergraduate Researcher @ Distributed Robotics Lab, MIT CSAIL**  
