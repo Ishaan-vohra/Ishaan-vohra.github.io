@@ -11,6 +11,8 @@ I'm an MIT undergraduate researhcer in the [Disitributed Robotics Laboratory (DR
 
 I’ve previously worked on projects spanning machine learning, physical simulation, and computational physics across robotics, photonic computing, and high-energy physics. Along the way, I’ve collaborated with researchers at CERN, Fermilab, RIKEN, the University of Liverpool, and MIT (Media Lab and RLE). Outside of research, I produce electronic music and play on the MIT badminton club team; I also enjoy squash, skiing, and table tennis.
 
+Feel free to reach me at <ishaanklv@gmail.com>.
+
 Education
 ======
 * **Massachusetts Institute of Technology, 2028 (expected)**
