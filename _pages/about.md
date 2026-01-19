@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm an MIT undergraduate researcher in the [Distributed Robotics Laboratory (DRL)](https://www.csail.mit.edu/research/distributed-robotics-laboratory) led by Prof. Daniela Rus at [CSAIL](https://www.csail.mit.edu/). My research focuses on synthetic data and generative simulation for robot learning, building scalable, high-fidelity simulated environments to improve sim-to-real generalization.
+I'm an MIT undergraduate researcher in the [Distributed Robotics Laboratory (DRL)](https://www.csail.mit.edu/research/distributed-robotics-laboratory) led by [Daniela Rus](https://danielarus.csail.mit.edu/) at [CSAIL](https://www.csail.mit.edu/). My research focuses on synthetic data and generative simulation for robot learning, building scalable, high-fidelity simulated environments to improve sim-to-real generalization.
 
 I’ve previously worked on projects spanning machine learning, physical simulation, and computational physics across robotics, photonic computing, and high-energy physics. Along the way, I’ve collaborated with researchers at CERN, Fermilab, RIKEN, the University of Liverpool, and MIT (Media Lab and RLE). Outside of research, I produce electronic music and play on the MIT badminton club team; I also enjoy squash, skiing, and table tennis.
 
