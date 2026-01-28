@@ -33,8 +33,9 @@ Work Experience
 
 * **Robot Learning Engineering Intern @ Stealth Robotics Startup**  
   *Jan 2026 - Present &middot; Cambridge, MA, USA*
-  * Building end-to-end scalable 3D asset generation pipelines to support enterprise robotics clients; generating photorealistic and physically-realistic robot simulation environments in Mujoco and NVIDIA Isaac Lab from image and video sources.
-  * Adapting and implementing visual data augmentation algorithms to improve robustness of visual robot policies trained in simulation.
+  * Led the development of end-to-end scalable 3D asset generation pipelines to support enterprise robotics clients, generating photorealistic and physically-realistic robot simulation environments in Mujoco from image and video sources.
+  * Built and teleoperated VR-based contact-rich manipulation simulations for client demos using robot assets and 3D reconstructed scenes from pipeline.
+
 
 * **Undergraduate Researcher @ Distributed Robotics Lab, MIT CSAIL**  
   *Sep 2025 - Present &middot; Cambridge, MA, USA*
