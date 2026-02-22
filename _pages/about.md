@@ -39,7 +39,7 @@ Work Experience
 
 * **Undergraduate Researcher @ Distributed Robotics Lab, MIT CSAIL**  
   *Sep 2025 - Present &middot; Cambridge, MA, USA*
-  * Building a synthetic environment generation system to train visual drone policies that demonstrate superior generalization across out-of-distribution (OOD) scenes.
+  * Building synthetic environment generation systems to fine-tune visuomotor drone foundation models (VLAs) to enable superior generalization across out-of-distribution scenes.
   * Developing novel differentiable simulation methods to iteratively optimize domain randomization parameters for test-time performance.
   * Supervised by Prof. Daniela Rus and mentored by Makram Chahine.
 
