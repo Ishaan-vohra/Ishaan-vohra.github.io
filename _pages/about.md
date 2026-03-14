@@ -20,13 +20,13 @@ Education
 
 Skills
 ======
-* **Programming Languages:** Python, C/C++, Julia, Lisp, Wolfram Language, Shell Scripting
+* **Programming Languages:** Python, C/C++, Julia, Bash/Shell, Lisp, Wolfram Language
 
-* **Robotics and Machine Learning**: PyTorch, Mujoco, NVIDIA Isaac Lab, AWS, High Performance/Cluster Computing, Generative Simulation
+* **Machine Learning**: PyTorch, NumPy, Pandas, Matplotlib, HuggingFace
 
-* **Physical Simulation**: ANSYS (Electronics, Maxwell, Lumerical), COMSOL Multiphysics, SolidWorks, LTspice, Tidy3D, Geant4
+* **Robotics/Simulation**: MuJoCo, NVIDIA Isaac Lab, ANSYS, COMSOL, SolidWorks, LTspice, Tidy3D, Geant4
 
-* **Additional Software**: Git/GitHub, NumPy, Pandas, Matplotlib, Docker, Linux, Jupyter, Arduino, CERN Root
+* **Tools/Platforms**: Git/GitHub, Docker, Linux, CI/CD, AWS, HPC, Jupyter, ROOT, Arduino
 
 Work Experience
 ======
