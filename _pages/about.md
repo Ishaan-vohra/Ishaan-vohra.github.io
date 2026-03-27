@@ -90,4 +90,4 @@ Activities and Societies
 * Undergraduate Researcher – CSAIL, RLE, Media Lab
 * MIT Music Production Collaborative – Executive Leadership Team
 * MIT Badminton Club – Competitive Team Member
-* Theta Xi Fraternity – Scholarship Chair, Webmaster
+* Theta Xi Fraternity – Scholarship Chair, Webmaster, Summer House Manager
