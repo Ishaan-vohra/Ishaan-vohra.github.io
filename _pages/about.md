@@ -28,7 +28,7 @@ Skills
 
 * **Tools/Platforms**: Git/GitHub, Docker, Linux, CI/CD, AWS, HPC, Jupyter, ROOT, Arduino
 
-Work Experience
+Experience
 ======
 
 * **MIT Computer Science and Artificial Intelligence Laboratory (CSAIL)**  
@@ -38,7 +38,7 @@ Work Experience
       * Joint project with Harvard Kempner Institute. Multimodal video world models for robotics; visuotactile sensing and force prediction. 
       * Co-supervised by Prof. Antonio Torralba, Prof. Yilun Du, and mentored by Haoyu Xiong.
     * Undergraduate Researcher, Distributed Robotics Lab 
-      *Jun 2023 - Sep 2023*  
+      *Sep 2025 - Present*  
       * Building synthetic environment generation systems to fine-tune visuomotor drone foundation models (VLAs) to enable superior generalization across out-of-distribution scenes.
       * Developing novel differentiable simulation methods to iteratively optimize domain randomization parameters for test-time performance.
       * Supervised by Prof. Daniela Rus and mentored by Makram Chahine.
