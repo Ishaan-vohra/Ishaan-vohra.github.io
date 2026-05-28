@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I'm an MIT undergraduate researcher in the [Distributed Robotics Laboratory (DRL)](https://www.csail.mit.edu/research/distributed-robotics-laboratory) led by [Daniela Rus](https://danielarus.csail.mit.edu/) at [CSAIL](https://www.csail.mit.edu/). My research focuses on synthetic data and generative simulation for robot learning, building scalable, high-fidelity simulated environments to improve sim-to-real generalization.
+I'm an MIT undergraduate researcher in robot learning at [CSAIL](https://www.csail.mit.edu/), advised by [Prof. Daniela Rus](https://danielarus.csail.mit.edu/) and Prof. [Antonio Torralba](https://groups.csail.mit.edu/vision/torralbalab/). My research focuses on VLA finetuning in simulation and multimodal world models.
 
-I’ve previously worked on projects spanning machine learning and computational physics across robotics, photonic computing, and high-energy physics. Along the way, I’ve collaborated with researchers at [CERN](https://home.cern/), [Fermilab](https://www.fnal.gov/), [RIKEN](https://www.riken.jp/en/research/labs/rnc/), the [University of Liverpool](https://www.liverpool.ac.uk/physics/research/particle-physics/), and MIT's [Media Lab](https://www.media.mit.edu/) and [Research Laboratory of Electronics](https://www.rle.mit.edu/). Outside of research, I produce electronic music and play on the MIT badminton club team; I also enjoy squash, skiing, and table tennis.
+I am also Co-founder and Co-head of MIT Undergraduate Robotics Reading Group, and Vice President of MIT Sloan Robotics Club. Outside of research, I produce electronic music and play on the MIT badminton team; I also enjoy squash, skiing, and table tennis.
 
-Feel free to reach me at <ishaanklv@gmail.com>.
+Feel free to reach me at <ishaanklv@gmail.com> or <ivohra@mit.edu>.
 
 Education
 ======
@@ -24,24 +24,30 @@ Skills
 
 * **Machine Learning**: PyTorch, NumPy, Pandas, Matplotlib, HuggingFace
 
-* **Robotics/Simulation**: MuJoCo, NVIDIA Isaac Lab, ANSYS, COMSOL, SolidWorks, LTspice, Tidy3D, Geant4
+* **Robotics/Simulation**: MuJoCo, NVIDIA Isaac Sim, ANSYS, COMSOL, SolidWorks, LTspice, Tidy3D, Geant4
 
 * **Tools/Platforms**: Git/GitHub, Docker, Linux, CI/CD, AWS, HPC, Jupyter, ROOT, Arduino
 
 Work Experience
 ======
 
-* **Robot Learning Engineering Intern @ Stealth Robotics Startup**  
-  *Jan 2026 - Present &middot; Cambridge, MA, USA*
-  * Led the development of end-to-end scalable 3D asset generation pipelines to support enterprise robotics clients, generating photorealistic and physically-realistic robot simulation environments in Mujoco from image and video sources.
+* **MIT Computer Science and Artificial Intelligence Laboratory (CSAIL)**  
+  *Cambridge, MA, USA*
+    * Undergraduate Researcher, Torralba Lab 
+      *May 2026 - Present*  
+      * Joint project with Harvard Kempner Institute. Multimodal video world models for robotics; visuotactile sensing and force prediction. 
+      * Co-supervised by Prof. Antonio Torralba, Prof. Yilun Du, and mentored by Haoyu Xiong.
+    * Undergraduate Researcher, Distributed Robotics Lab 
+      *Jun 2023 - Sep 2023*  
+      * Building synthetic environment generation systems to fine-tune visuomotor drone foundation models (VLAs) to enable superior generalization across out-of-distribution scenes.
+      * Developing novel differentiable simulation methods to iteratively optimize domain randomization parameters for test-time performance.
+      * Supervised by Prof. Daniela Rus and mentored by Makram Chahine.
+
+
+* **Robot Learning Engineering Intern @ Fortyfive Labs**  
+  *Jan 2026 - Feb 2026 &middot; Cambridge, MA, USA*
+  * Led the development of end-to-end 3D asset generation pipelines at MIT spinout to supply enterprise robotics clients, generating photorealistic and physically-realistic robot simulation environments in Mujoco from image and video sources.
   * Built and teleoperated VR-based contact-rich manipulation simulations for client demos using robot assets and 3D reconstructed scenes from pipeline.
-
-
-* **Undergraduate Researcher @ Distributed Robotics Lab, MIT CSAIL**  
-  *Sep 2025 - Present &middot; Cambridge, MA, USA*
-  * Building synthetic environment generation systems to fine-tune visuomotor drone foundation models (VLAs) to enable superior generalization across out-of-distribution scenes.
-  * Developing novel differentiable simulation methods to iteratively optimize domain randomization parameters for test-time performance.
-  * Supervised by Prof. Daniela Rus and mentored by Makram Chahine.
 
 
 * **Undergraduate Researcher @ Quantum Photonics and AI Group, MIT RLE**  
@@ -88,6 +94,8 @@ Awards and Competitions
 Activities and Societies
 ======
 * Undergraduate Researcher – CSAIL, RLE, Media Lab
+* MIT Undergraduate Robotics Reading Group – Co-founder and Co-head
+* MIT Sloan Robotics Club – Vice President
 * MIT Music Production Collaborative – Executive Leadership Team
 * MIT Badminton Club – Competitive Team Member
 * Theta Xi Fraternity – Scholarship Chair, Webmaster, Summer House Manager
