@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I'm an MIT undergraduate researcher in robot learning at [CSAIL](https://www.csail.mit.edu/), advised by [Prof. Daniela Rus](https://danielarus.csail.mit.edu/) and Prof. [Antonio Torralba](https://groups.csail.mit.edu/vision/torralbalab/). My research focuses on VLA finetuning in simulation and multimodal world models.
+I'm an MIT undergraduate researcher at [CSAIL](https://www.csail.mit.edu/), advised by [Prof. Daniela Rus](https://danielarus.csail.mit.edu/) and Prof. [Antonio Torralba](https://groups.csail.mit.edu/vision/torralbalab/). My research is at the intersections of robotics and machine learning, focusing on VLA finetuning in simulation and multimodal world models.
 
-I am also Co-founder and Co-head of MIT Undergraduate Robotics Reading Group, and Vice President of MIT Sloan Robotics Club. Outside of research, I produce electronic music and play on the MIT badminton team; I also enjoy squash, skiing, and table tennis.
+I also lead the MIT Undergraduate Robotics Reading Group and am Vice President of MIT Sloan Robotics Club. Outside of robotics, I produce electronic music and play on the MIT badminton team; I also enjoy squash, skiing, and table tennis.
 
 Feel free to reach me at <ishaanklv@gmail.com> or <ivohra@mit.edu>.
 
