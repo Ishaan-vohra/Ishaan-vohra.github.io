@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm an undergraduate researcher at [MIT CSAIL](https://www.csail.mit.edu/), advised by Prof. [Daniela Rus](https://danielarus.csail.mit.edu/) and Prof. [Antonio Torralba](https://groups.csail.mit.edu/vision/torralbalab/). My research lies at the intersections of robotics and machine learning, focusing on VLA fine-tuning in simulation and multimodal world models.
+I'm an MIT undergraduate researcher at [CSAIL](https://www.csail.mit.edu/), advised by Prof. [Daniela Rus](https://danielarus.csail.mit.edu/) and Prof. [Antonio Torralba](https://groups.csail.mit.edu/vision/torralbalab/). My research lies at the intersections of robotics and machine learning, focusing on VLA fine-tuning in simulation and multimodal world models.
 
 I also lead the MIT Undergraduate Robotics Reading Group and serve as Vice President of the MIT Sloan Robotics Club. Outside robotics, I produce electronic music and play on the MIT badminton team; I also enjoy squash, skiing, and table tennis.
 
