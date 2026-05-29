@@ -36,7 +36,7 @@ Experience
     * Undergraduate Researcher, Torralba Lab 
       *May 2026 - Present*  
       * Joint project with Harvard Kempner Institute. Multimodal video world models for robotics; visuotactile sensing and force prediction. 
-      * Co-supervised by Prof. Antonio Torralba, Prof. Yilun Du, and mentored by Haoyu Xiong.
+      * Co-supervised by Prof. Antonio Torralba and Prof. Yilun Du, and mentored by Haoyu Xiong.
     * Undergraduate Researcher, Distributed Robotics Lab 
       *Sep 2025 - Present*  
       * Building synthetic environment generation systems to fine-tune visuomotor drone foundation models (VLAs) to enable superior generalization across out-of-distribution scenes.
