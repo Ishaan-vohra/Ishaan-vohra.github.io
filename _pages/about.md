@@ -46,7 +46,7 @@ Experience
 
 * **Robot Learning Engineering Intern @ Fortyfive Labs**  
   *Jan 2026 - Feb 2026 &middot; Cambridge, MA, USA*
-  * Led the development of end-to-end 3D asset generation pipelines at MIT spinout to supply enterprise robotics clients, generating photorealistic and physically-realistic robot simulation environments in Mujoco from image and video sources.
+  * Led the development of end-to-end 3D asset generation pipelines at MIT spinout to supply enterprise robotics clients (e.g. Cobot, Pickle Robot), generating photorealistic and physically-realistic robot simulation environments in Mujoco from image and video sources.
   * Built and teleoperated VR-based contact-rich manipulation simulations for client demos using robot assets and 3D reconstructed scenes from pipeline.
 
 
