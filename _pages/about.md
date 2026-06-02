@@ -70,8 +70,8 @@ Experience
 
 * **Founder and Team Lead, Winning Beamline Competition Team @ CERN**  
   *Nov 2021 - Apr 2024 &middot; Geneva, Switzerland*
-  * Founder and team lead of the Phillips Exeter Academy CERN Beamline for Schools team (2022: shortlisted among the top 24 teams globally, 2023: 1 of 3 global winning teams). 
-  * Performed our experiment at CERN’s proton-synchrotron T10 test-beam and presented our findings at the 12th Beam Telescopes and Test Beams Workshop (BTTB12).
+  * Led the design and experimentation for a world-first radially and rotationally adjustable magnetic Halbach array in CERN’s T10 beamline.
+  * First author of publication presented at 12th Beam Telescopes and Test Beams Workshop (BTTB).
 
 * **Nuclear Physics Intern @ RIKEN Nishina Center for Accelerator-Based Science (RNC)**  
   *Jul 2023 - Aug 2023 &middot; Tokyo, Japan*
@@ -86,9 +86,10 @@ Experience
 
 Awards and Competitions
 ======
-* Global Winner and Team Lead: CERN Beamline Competition (‘23) 
-* Finalist: International Songwriting Competition (‘21, ‘23), USA Songwriting Competition ('23), UK Songwriting Competition ('21)
+* Global Winner and Team Lead: CERN Beamline Competition (‘24) 
 * 2nd: US Invitational Young Physicists’ Tournament (‘23, ‘24)
+* Finalist: International Songwriting Competition (‘21, ‘23)
+* Finalist: UK Songwriting Competition ('23)
 * Silver in Physics, North American Finals, S.T. Yau Science Award (‘22)
 
 Activities and Societies
