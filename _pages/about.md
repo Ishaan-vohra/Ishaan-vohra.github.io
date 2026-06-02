@@ -39,8 +39,8 @@ Experience
       * Co-supervised by Prof. Antonio Torralba and Prof. Yilun Du, and mentored by Haoyu Xiong.
     * Undergraduate Researcher, Distributed Robotics Lab 
       *Sep 2025 - Present*  
-      * Building synthetic environment generation systems to fine-tune visuomotor drone foundation models (VLAs) to enable superior generalization across out-of-distribution scenes.
-      * Developing novel differentiable simulation methods to iteratively optimize domain randomization parameters for test-time performance.
+      * Leading project on vision-language-action (VLA) model fine-tuning in simulation; developing novel algorithms for gradient-based optimization of domain randomization parameters.
+      * Building custom differentiable simulation pipelines; deploying fine-tuned models on robot manipulation hardware (Franka FR3 arm).
       * Supervised by Prof. Daniela Rus and mentored by Makram Chahine.
 
 
@@ -94,7 +94,7 @@ Awards and Competitions
 
 Activities and Societies
 ======
-* Undergraduate Researcher – CSAIL, RLE, Media Lab
-* MIT Undergraduate Robotics Reading Group – Co-founder and Co-head
 * MIT Sloan Robotics Club – Vice President
-* Theta Xi Fraternity – Scholarship Chair, Webmaster, Summer House Manager
+* MIT Undergraduate Robotics Reading Group – Co-founder and Co-head
+* Theta Xi Fraternity – Vice President, Summer House Manager
+* Executive Leadership Team – MIT Music Production Collaborative
