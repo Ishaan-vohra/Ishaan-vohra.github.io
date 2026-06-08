@@ -36,12 +36,23 @@ $sidebar-screen-min-width   : 1024px;
     --global-code-background-color      : #fafafa;
     --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-    --global-link-color                 : #52adc8;
-    --global-link-color-hover           : mix(#000, #2f7f93, 25%);
-    --global-link-color-visited         : mix(#fff, #2f7f93, 25%);  
-    --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
-    --global-text-color                 : #{$dark-gray};
-    --global-text-color-light           : #{$light-gray};
+    --global-link-color                 : #d97706;
+    --global-link-color-hover           : #b45309;
+    --global-link-color-visited         : #d97706;
+    --global-masthead-link-color        : #1f2937;
+    --global-masthead-link-color-hover  : #d97706;
+    --global-text-color                 : #1f2937;
+    --global-text-color-light           : #6b7280;
     --global-thead-color                : #{$lighter-gray};
+
+    /* vincentsitzmann-style palette (single-page redesign) */
+    --color-accent                      : #d97706;
+    --color-link                        : #d97706;
+    --color-link-hover                  : #b45309;
+    --color-text                        : #1f2937;
+    --color-muted                       : #6b7280;
+    --color-border                      : #e5e7eb;
+    --color-bg                          : #ffffff;
+    --color-bg-secondary                : #fafafa;
+    --color-thumb-bg                    : #f3f4f6;
 }

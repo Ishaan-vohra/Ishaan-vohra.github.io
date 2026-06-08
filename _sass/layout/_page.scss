@@ -3,33 +3,24 @@
    ========================================================================== */
 
 #main {
-  @include container;
-  @include clearfix;
-  margin-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
+  max-width: 768px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
-
-  @include breakpoint($x-large) {
-    max-width: $x-large;
-  }
 }
 
 .page {
-  @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
-  }
+  width: 100%;
 
   .page__inner-wrap {
-    @include full();
+    width: 100%;
 
     .page__content,
     .page__meta,
     .page__share {
-      @include full();
+      width: 100%;
     }
   }
 }

@@ -15,7 +15,7 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
-  {% include sidebar.html %}
+  <p class="page-back"><a href="{{ base_path }}/">&larr; Home</a></p>
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
@@ -27,26 +27,16 @@ layout: default
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-          {% if page.read_time %}
-            <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+
+          {% if page.collection == 'projects' or page.collection == 'publications' %}
+            {% if page.author %}<p class="page__byline-authors">{{ page.author }}</p>{% endif %}
+            {% if page.venue %}<p class="page__byline-meta"><span class="page__venue">{{ page.venue | strip }}</span>{% if page.date %} &middot; {{ page.date | default: "1900-01-01" | date: "%Y" }}{% endif %}</p>{% endif %}
+          {% elsif page.collection == 'blog' %}
+            <p class="page__byline-authors">{{ page.author | default: site.author.name }}</p>
+            {% if page.date %}<p class="page__byline-meta">{{ page.date | date: "%B %-d, %Y" }}</p>{% endif %}
+          {% elsif page.date %}
+            <p class="page__byline-meta">{{ page.date | date: "%B %-d, %Y" }}</p>
           {% endif %}
-        {% if page.modified %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
-        
-        {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.collection == 'projects' %}
-          {% if page.author %}<p>{{ page.author | markdownify }}</p>{% endif %}
-          <p><strong><i>{{ page.venue }}</i></strong>, <strong>{{ page.date | default: "1900-01-01" | date: "%Y" }}</strong> </p>
-        {% elsif page.venue and page.date %}
-          {% if page.author %}<p>{{ page.author | markdownify }}</p>{% endif %}
-          <p><strong><i>{{ page.venue }}</i></strong>, <strong>{{ page.date | default: "1900-01-01" | date: "%Y" }}</strong> </p>
-        {% endif %}
-        
-        {% if page.date and page.collection != 'projects' %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}    
         </header>
       {% endunless %}
 
@@ -90,6 +80,10 @@ layout: default
           <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% endif %}
 
+        {% if page.reporturl %}
+          <p style="font-size: smaller"><a href="{{ page.reporturl | prepend: base_path }}">report</a></p>
+        {% endif %}
+
         {% if page.image %}
           <div class="page__image" style="text-align: center; margin: 20px 0;">
             <!-- Debug: image_width={{ page.image_width }}, image_height={{ page.image_height }} -->
@@ -109,8 +103,6 @@ layout: default
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
-
-      {% include post_pagination.html %}
     </div>
 
     {% if site.comments.provider and page.comments %}

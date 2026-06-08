@@ -1,0 +1,112 @@
+---
+layout: default
+---
+
+{% include base_path %}
+{% assign firstname = site.author.name | split: ' ' | first %}
+
+<main class="site-main" role="main">
+
+  <!-- Intro: bio + links on the left, photo on the right -->
+  <section class="intro-header">
+    <div class="intro-content">
+      <div class="intro-text">
+        <h1 class="greeting">Hi, I'm {{ firstname }}!</h1>
+
+        {{ content }}
+
+        <ul class="intro-links">
+          {% if site.author.email %}
+            <li><a href="mailto:{{ site.author.email }}"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email</a></li>
+          {% endif %}
+          {% if site.author.googlescholar %}
+            <li><a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener"><i class="fa-brands fa-google-scholar" aria-hidden="true"></i> Google Scholar</a></li>
+          {% endif %}
+          {% if site.author.github %}
+            <li><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a></li>
+          {% endif %}
+          {% if site.author.linkedin %}
+            <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+          {% endif %}
+          {% if site.author.twitter %}
+            <li><a href="https://x.com/{{ site.author.twitter }}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> X</a></li>
+          {% endif %}
+          {% if site.author.orcid %}
+            <li><a href="{{ site.author.orcid }}" target="_blank" rel="noopener"><i class="fa-brands fa-orcid" aria-hidden="true"></i> ORCID</a></li>
+          {% endif %}
+          <li><a href="{{ base_path }}/files/Ishaan_Vohra_resume.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> Resume</a></li>
+        </ul>
+      </div>
+
+      {% if site.author.avatar %}
+        <div class="intro-image">
+          <img src="{{ site.author.avatar | prepend: '/images/' | prepend: base_path }}" alt="{{ site.author.name }}" fetchpriority="high">
+        </div>
+      {% endif %}
+    </div>
+  </section>
+
+  <!-- Recent Highlights -->
+  <section id="highlights" class="home-section">
+    <h2>Recent Highlights</h2>
+    <ul class="highlights-list">
+      <li>🤖 2026: Began working with <a href="https://haoyu-x.github.io/" target="_blank" rel="noopener">Haoyu Xiong</a> on visuotactile world models for robotics, co-advised by Antonio Torralba (MIT CSAIL) and Yilun Du (Harvard).</li>
+      <li>🌐 2026: Selected as VP of the MIT Sloan Robotics Club.</li>
+      <li>🤖 2025: Began working with <a href="https://makramchahine.github.io/" target="_blank" rel="noopener">Makram Chahine</a> on gradient-optimized VLA fine-tuning in simulation, advised by Daniela Rus (MIT CSAIL).</li>
+      <li>🏆 2025: DARPA Project with the <a href="https://qp.mit.edu/" target="_blank" rel="noopener">Quantum Photonics and AI Group</a> on optical neural networks selected to advance to the next phase. </li>
+      <li>📄 2024: Lead-author paper accepted at the <em>12th Beam Telescopes and Test Beams Workshop (BTTB)</em>.</li>
+    </ul>
+  </section>
+
+  <!-- Publications -->
+  {% assign publications = site.publications | sort: 'date' | reverse %}
+  {% if publications.size > 0 %}
+    <section id="publications" class="home-section">
+      <h2>Publications</h2>
+      {% if site.author.googlescholar %}
+        <p class="section-note">Also available on my <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a> profile.</p>
+      {% endif %}
+      <div class="publications-list">
+        {% for item in publications %}
+          {% include home/entry.html item=item %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  <!-- Projects -->
+  {% assign projects = site.projects | sort: 'date' | reverse %}
+  {% if projects.size > 0 %}
+    <section id="projects" class="home-section">
+      <h2>Projects</h2>
+      <div class="publications-list">
+        {% for item in projects %}
+          {% include home/entry.html item=item %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  <!-- Blog -->
+  {% assign posts = site.blog | sort: 'date' | reverse %}
+  {% if posts.size > 0 %}
+    <section id="blog" class="home-section">
+      <h2>Blog</h2>
+      <p class="section-note"><a href="{{ base_path }}/blog/">View all posts &rarr;</a></p>
+      <div class="blog-list">
+        {% for post in posts %}
+          <a class="blog-card-link" href="{{ base_path }}{{ post.url }}">
+            <article class="blog-card-horizontal">
+              <div class="blog-content">
+                <div class="blog-meta"><span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span></div>
+                <h3 class="blog-title">{{ post.title }}</h3>
+                {% if post.excerpt %}<p class="blog-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>{% endif %}
+              </div>
+            </article>
+          </a>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+</main>

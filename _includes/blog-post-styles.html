@@ -1,0 +1,125 @@
+{% comment %}
+  Shared styles for long-form blog posts converted from LaTeX: abstract box,
+  keyword line, figures with captions, algorithm/pseudocode boxes, references.
+  Pull this in near the top of a post body with the Liquid include tag naming
+  this file (blog-post-styles.html). Colors use the site's --color-* palette so
+  they track the theme. The full conversion process lives in the latex-to-blog
+  skill under .claude/skills. Keep notes here in a Liquid comment, never an HTML
+  comment: Liquid runs tag and include syntax even inside an HTML comment.
+{% endcomment %}
+<style>
+/* ----- Shared styles for LaTeX-derived blog posts ----- */
+.page__content h4 {
+  font-size: 1.02rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.5rem;
+  color: var(--color-text);
+}
+
+/* Abstract / standfirst */
+.page__content .post-abstract {
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 8px;
+  padding: 0.95rem 1.2rem;
+  margin: 0.25rem 0 1rem;
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+.page__content .post-abstract .label {
+  display: block;
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  margin-bottom: 0.4rem;
+}
+.page__content .post-keywords {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  margin: 0 0 2rem;
+}
+
+/* Figures */
+.page__content figure.blog-figure {
+  display: block;
+  text-align: center;
+  margin: 1.9rem 0;
+}
+.page__content figure.blog-figure img {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  margin-bottom: 0;
+}
+.page__content figure.blog-figure figcaption {
+  display: block;
+  width: 100%;
+  margin: 0.65rem auto 0;
+  max-width: 90%;
+  font-family: Georgia, Times, serif;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--color-muted);
+  text-align: center;
+}
+.page__content figure.blog-figure figcaption .figlabel {
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+/* Algorithm boxes */
+.page__content .algorithm {
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background-color: var(--color-bg-secondary);
+  margin: 1.75rem 0;
+  overflow: hidden;
+  font-size: 0.95rem;
+}
+.page__content .algorithm .algorithm-title {
+  background-color: var(--color-thumb-bg);
+  border-bottom: 1px solid var(--color-border);
+  padding: 0.55rem 1rem;
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+.page__content .algorithm .algorithm-body {
+  padding: 0.7rem 1rem 0.85rem;
+  counter-reset: algoline;
+}
+.page__content .algorithm .algo-line {
+  display: flex;
+  align-items: baseline;
+  gap: 0.55rem;
+  padding: 0.13rem 0;
+  line-height: 1.5;
+}
+.page__content .algorithm.numbered .algo-line { counter-increment: algoline; }
+.page__content .algorithm .algo-line > .ln {
+  flex: 0 0 1.5em;
+  text-align: right;
+  color: var(--color-muted);
+  font-variant-numeric: tabular-nums;
+  user-select: none;
+}
+.page__content .algorithm.numbered .algo-line > .ln::before {
+  content: counter(algoline) ":";
+}
+.page__content .algorithm .algo-line > .txt { flex: 1 1 auto; }
+.page__content .algorithm .algo-line.i1 > .txt { padding-left: 1.6em; }
+.page__content .algorithm .algo-line.i2 > .txt { padding-left: 3.2em; }
+.page__content .algorithm .algo-line .kw { font-weight: 600; }
+
+/* References */
+.page__content ol.references {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  padding-left: 1.5rem;
+}
+.page__content ol.references li { margin-bottom: 0.55rem; }
+.page__content a.cite { text-decoration: none; white-space: nowrap; }
+</style>

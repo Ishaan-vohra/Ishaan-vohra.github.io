@@ -94,9 +94,10 @@
   }
 
   img {
-    max-width: 175px;
-    width: 175px;
-    height: 175px;
+    width: 228px;          /* ~30% larger than the previous 175px */
+    max-width: 100%;       /* never overflow a narrow sidebar or screen */
+    height: auto;
+    aspect-ratio: 1 / 1;   /* stay a perfect circle when scaled down */
     object-fit: cover;
     border-radius: 50%;
 

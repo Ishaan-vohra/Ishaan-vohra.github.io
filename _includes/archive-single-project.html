@@ -48,7 +48,10 @@
         {% if post.paperurl2 %}| <a href="{{ post.paperurl2 }}">Link 2</a>{% endif %}
         {% if post.paperurl3 %}| <a href="{{ post.paperurl3 }}">Link 3</a>{% endif %}
         {% if post.paperurl4 %}| <a href="{{ post.paperurl4 }}">Link 4</a>{% endif %}
+        {% if post.reporturl %}| <a href="{{ post.reporturl | prepend: base_path }}">report</a>{% endif %}
       </p>
+    {% elsif post.reporturl %}
+      <p><a href="{{ post.reporturl | prepend: base_path }}">report</a></p>
     {% endif %}
     
     {% if post.image %}

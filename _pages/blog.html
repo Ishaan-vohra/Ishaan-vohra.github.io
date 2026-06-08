@@ -1,0 +1,22 @@
+---
+title: "Blog"
+layout: archive
+permalink: /blog/
+---
+
+{% include base_path %}
+
+<div class="blog-list">
+  {% assign posts = site.blog | sort: 'date' | reverse %}
+  {% for post in posts %}
+    <a class="blog-card-link" href="{{ base_path }}{{ post.url }}">
+      <article class="blog-card-horizontal">
+        <div class="blog-content">
+          <div class="blog-meta"><span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span></div>
+          <h3 class="blog-title">{{ post.title }}</h3>
+          {% if post.excerpt %}<p class="blog-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>{% endif %}
+        </div>
+      </article>
+    </a>
+  {% endfor %}
+</div>

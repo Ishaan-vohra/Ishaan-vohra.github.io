@@ -1,0 +1,40 @@
+{% include base_path %}
+{% assign item = include.item %}
+
+<article class="publication">
+  <div class="pub-content">
+    {% if item.image %}
+      <div class="pub-thumbnail">
+        <img src="{{ item.image | prepend: '/images/' | prepend: base_path }}" alt="{{ item.title | strip_html }}" loading="lazy">
+      </div>
+    {% endif %}
+
+    <div class="pub-info">
+      <h3 class="pub-title">{{ item.title }}</h3>
+
+      {% if item.author %}<p class="pub-authors">{{ item.author }}</p>{% endif %}
+
+      {% if item.venue %}
+        <p class="pub-venue"><i>{{ item.venue | strip }}</i>{% if item.date %}, {{ item.date | date: "%Y" }}{% endif %}</p>
+      {% endif %}
+
+      {% if item.summary %}<p class="pub-summary">{{ item.summary }}</p>{% endif %}
+
+      <div class="pub-links">
+        {% if item.paperurl %}
+          {% assign u = item.paperurl %}
+          {% if u contains 'arxiv' %}{% assign lbl = 'arXiv' %}{% elsif u contains 'github' %}{% assign lbl = 'Code' %}{% elsif u contains 'presentation' or u contains 'slides' %}{% assign lbl = 'Slides' %}{% elsif u contains '.pdf' %}{% assign lbl = 'PDF' %}{% else %}{% assign lbl = 'Website' %}{% endif %}
+          <a href="{{ u }}" target="_blank" rel="noopener">{{ lbl }}</a>
+        {% endif %}
+        {% if item.paperurl2 %}
+          {% assign u = item.paperurl2 %}
+          {% if u contains 'arxiv' %}{% assign lbl = 'arXiv' %}{% elsif u contains 'github' %}{% assign lbl = 'Code' %}{% elsif u contains 'presentation' or u contains 'slides' %}{% assign lbl = 'Slides' %}{% elsif u contains '.pdf' %}{% assign lbl = 'PDF' %}{% else %}{% assign lbl = 'Link' %}{% endif %}
+          <a href="{{ u }}" target="_blank" rel="noopener">{{ lbl }}</a>
+        {% endif %}
+        {% if item.slidesurl %}<a href="{{ item.slidesurl }}" target="_blank" rel="noopener">Slides</a>{% endif %}
+        {% if item.reporturl %}<a href="{{ item.reporturl | prepend: base_path }}" target="_blank" rel="noopener">Report</a>{% endif %}
+        {% if item.bibtexurl %}<a href="{{ item.bibtexurl }}" target="_blank" rel="noopener">BibTeX</a>{% endif %}
+      </div>
+    </div>
+  </div>
+</article>
