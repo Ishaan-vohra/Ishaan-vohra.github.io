@@ -1,52 +1,48 @@
+---
+layout: null
+sitemap: false
+---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://ishaan-vohra.github.io/</loc>
-  <lastmod>2025-08-22T23:03:06+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://ishaan-vohra.github.io/publications/</loc>
-  <lastmod>2025-08-22T23:03:06+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://ishaan-vohra.github.io/projects/</loc>
-  <lastmod>2025-08-22T23:03:06+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://ishaan-vohra.github.io/https:/indico.cern.ch/event/1323113/contributions/5823576/</loc>
-  <lastmod>2025-08-22T23:03:06+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://ishaan-vohra.github.io/https:/inspirehep.net/literature/2150455</loc>
-  <lastmod>2025-08-22T23:03:06+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://ishaan-vohra.github.io/project/rfmatrixvectormultiplication</loc>
-  <lastmod>2025-08-22T23:03:06+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://ishaan-vohra.github.io/project/rikennishinaschool2023</loc>
-  <lastmod>2025-08-22T23:03:06+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://ishaan-vohra.github.io/project/dunebubblechamber</loc>
-  <lastmod>2025-08-22T23:03:06+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+<!--
+  Sitemap for https://ishaan-vohra.github.io
+  The stable top-level pages are listed explicitly; blog posts are generated
+  automatically from the `blog` collection, so new posts appear here on build.
+  Template/demo pages (markdown, archives, talkmap, etc.) are intentionally
+  excluded and disallowed in robots.txt. Projects are rendered inline on the
+  home page (the collection has output: false), so they have no own URLs.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ '/' | absolute_url }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>{{ '/publications/' | absolute_url }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>{{ '/blog/' | absolute_url }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% assign posts = site.blog | sort: 'date' | reverse %}
+  {% for post in posts %}
+  <url>
+    <loc>{{ post.url | absolute_url }}</loc>
+    <lastmod>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  {% endfor %}
+  <url>
+    <loc>{{ '/terms/' | absolute_url }}</loc>
+    <lastmod>2026-06-08T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>
