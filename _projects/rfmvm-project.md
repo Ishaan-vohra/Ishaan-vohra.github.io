@@ -11,8 +11,11 @@ summary: "A hardware proof-of-concept performing matrix-vector multiplication in
 image: 'rf.png'
 image_width: "70%"
 image_height: #
-paperurl: 'https://docs.google.com/presentation/d/1qLGU_KVGzetXiOzHfIrgd9_Tx0Xc4GwlEFUHKHfri-U/edit?usp=sharing'
-reporturl: '/files/62300_final_project.pdf'
+links:
+  - name: Report
+    url: '/files/62300_final_project.pdf'
+  - name: Slides
+    url: 'https://docs.google.com/presentation/d/1qLGU_KVGzetXiOzHfIrgd9_Tx0Xc4GwlEFUHKHfri-U/edit?usp=sharing'
 citation: #
 ---
 

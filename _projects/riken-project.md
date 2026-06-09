@@ -11,7 +11,9 @@ summary: "Measured and simulated proton-induced gamma-ray emission cross section
 image: 'riken.png'
 image_width: "70%"
 image_height: #
-paperurl: 'https://docs.google.com/presentation/d/1H0uMZAzA_6reGW-yE9Pq7dr386HplIR9F8gdYEJzcIk/edit?usp=sharing'
+links:
+  - name: Slides
+    url: 'https://docs.google.com/presentation/d/1H0uMZAzA_6reGW-yE9Pq7dr386HplIR9F8gdYEJzcIk/edit?usp=sharing'
 citation: #
 ---
 

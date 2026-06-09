@@ -11,7 +11,9 @@ summary: "Optimized the underground placement of DUNE's Modern Modular Bubble Ch
 image: 'mmbc.png'
 image_width: "70%"
 image_height: #
-paperurl: 'https://github.com/Ishaan-vohra/MMBC-Project'
+links:
+  - name: Code
+    url: 'https://github.com/Ishaan-vohra/MMBC-Project'
 citation: #
 ---
 

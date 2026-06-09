@@ -13,9 +13,9 @@ image_width: "70%"
 image_height: #
 links:
   - name: Paper
-    url: https://indico.cern.ch/event/1323113/contributions/5823576/
+    url: https://beamlineforschools.cern/wp-content/uploads/2025/12/Myriad-Magnets-Proposal.pdf
   # Add more named links as needed, e.g.:
-  # - name: Slides
-  #   url: https://your-slides-url
+  - name: Slides
+    url: https://indico.cern.ch/event/1323113/contributions/5823576/
 citation: #
 ---
