@@ -56,4 +56,51 @@ $sidebar-screen-min-width   : 1024px;
     --color-bg                          : #ffffff;
     --color-bg-secondary                : #fafafa;
     --color-thumb-bg                    : #f3f4f6;
+
+    /* Masthead theme-toggle icon visibility (light mode shows the moon = "switch to dark") */
+    --icon-sun-display                  : none;
+    --icon-moon-display                 : inline-block;
 }
+
+/* ==========================================================================
+   DARK THEME
+   Applied whenever <html> carries data-theme="dark". The site's theme script
+   (assets/js/_main.js plus the inline no-flash script in head.html) sets that
+   attribute from the saved preference or the OS prefers-color-scheme setting,
+   so both auto-detection and the manual toggle flow through this one selector.
+   ========================================================================== */
+@mixin theme-dark {
+    --global-base-color                 : #9aa3af;
+    --global-bg-color                   : #0f1115;
+    --global-footer-bg-color            : #0c0e11;
+    --global-border-color               : #2a2f3a;
+    --global-dark-border-color          : #3a414e;
+    --global-code-background-color      : #1a1d24;
+    --global-code-text-color            : #e6e8eb;
+    --global-fig-caption-color          : #9aa3af;
+    --global-link-color                 : #fbbf24;
+    --global-link-color-hover           : #fcd34d;
+    --global-link-color-visited         : #fbbf24;
+    --global-masthead-link-color        : #e6e8eb;
+    --global-masthead-link-color-hover  : #fbbf24;
+    --global-text-color                 : #e6e8eb;
+    --global-text-color-light           : #9aa3af;
+    --global-thead-color                : #2a2f3a;
+
+    /* vincentsitzmann-style palette — dark variant */
+    --color-accent                      : #fbbf24;  /* brighter amber, readable on dark */
+    --color-link                        : #fbbf24;
+    --color-link-hover                  : #fcd34d;
+    --color-award                       : #60a5fa;  /* brighter blue, still stands out */
+    --color-text                        : #e6e8eb;
+    --color-muted                       : #9aa3af;
+    --color-border                      : #2a2f3a;
+    --color-bg                          : #0f1115;
+    --color-bg-secondary                : #1a1d24;
+    --color-thumb-bg                    : #1f2330;
+
+    --icon-sun-display                  : inline-block;  /* dark mode shows the sun = "switch to light" */
+    --icon-moon-display                 : none;
+}
+
+html[data-theme="dark"] { @include theme-dark; }

@@ -43,7 +43,14 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
+        {% if page.links %}
+          {% comment %} Custom, explicitly-named links: each entry has `name` (display text) and `url`. {% endcomment %}
+          <p style="font-size: smaller">
+            {% if page.citation %}Recommended citation: {{ page.citation }}<br />{% endif %}
+            {% for link in page.links %}{% if link.url contains '://' %}{% assign href = link.url %}{% else %}{% assign href = link.url | prepend: base_path %}{% endif %}{% unless forloop.first %} | {% endunless %}<a href="{{ href }}">{{ link.name | default: link.label }}</a>{% endfor %}
+            {% if page.bibtexurl %} | <a href="{{ page.bibtexurl }}">Download Bibtex</a>{% endif %}
+          </p>
+        {% elsif page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Link</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl and page.slidesurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Link</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>

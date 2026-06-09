@@ -21,19 +21,27 @@
       {% if item.summary %}<p class="pub-summary">{{ item.summary }}</p>{% endif %}
 
       <div class="pub-links">
-        {% if item.paperurl %}
-          {% assign u = item.paperurl %}
-          {% if u contains 'arxiv' %}{% assign lbl = 'arXiv' %}{% elsif u contains 'github' %}{% assign lbl = 'Code' %}{% elsif u contains 'presentation' or u contains 'slides' %}{% assign lbl = 'Slides' %}{% elsif u contains '.pdf' %}{% assign lbl = 'PDF' %}{% else %}{% assign lbl = 'Website' %}{% endif %}
-          <a href="{{ u }}" target="_blank" rel="noopener">{{ lbl }}</a>
+        {% if item.links %}
+          {% comment %} Custom, explicitly-named links: each entry has `name` (display text) and `url`. {% endcomment %}
+          {% for link in item.links %}
+            {% if link.url contains '://' %}{% assign href = link.url %}{% else %}{% assign href = link.url | prepend: base_path %}{% endif %}
+            <a href="{{ href }}" target="_blank" rel="noopener">{{ link.name | default: link.label }}</a>
+          {% endfor %}
+        {% else %}
+          {% if item.paperurl %}
+            {% assign u = item.paperurl %}
+            {% if u contains 'arxiv' %}{% assign lbl = 'arXiv' %}{% elsif u contains 'github' %}{% assign lbl = 'Code' %}{% elsif u contains 'presentation' or u contains 'slides' %}{% assign lbl = 'Slides' %}{% elsif u contains '.pdf' %}{% assign lbl = 'PDF' %}{% else %}{% assign lbl = 'Website' %}{% endif %}
+            <a href="{{ u }}" target="_blank" rel="noopener">{{ lbl }}</a>
+          {% endif %}
+          {% if item.paperurl2 %}
+            {% assign u = item.paperurl2 %}
+            {% if u contains 'arxiv' %}{% assign lbl = 'arXiv' %}{% elsif u contains 'github' %}{% assign lbl = 'Code' %}{% elsif u contains 'presentation' or u contains 'slides' %}{% assign lbl = 'Slides' %}{% elsif u contains '.pdf' %}{% assign lbl = 'PDF' %}{% else %}{% assign lbl = 'Link' %}{% endif %}
+            <a href="{{ u }}" target="_blank" rel="noopener">{{ lbl }}</a>
+          {% endif %}
+          {% if item.slidesurl %}<a href="{{ item.slidesurl }}" target="_blank" rel="noopener">Slides</a>{% endif %}
+          {% if item.reporturl %}<a href="{{ item.reporturl | prepend: base_path }}" target="_blank" rel="noopener">Report</a>{% endif %}
+          {% if item.bibtexurl %}<a href="{{ item.bibtexurl }}" target="_blank" rel="noopener">BibTeX</a>{% endif %}
         {% endif %}
-        {% if item.paperurl2 %}
-          {% assign u = item.paperurl2 %}
-          {% if u contains 'arxiv' %}{% assign lbl = 'arXiv' %}{% elsif u contains 'github' %}{% assign lbl = 'Code' %}{% elsif u contains 'presentation' or u contains 'slides' %}{% assign lbl = 'Slides' %}{% elsif u contains '.pdf' %}{% assign lbl = 'PDF' %}{% else %}{% assign lbl = 'Link' %}{% endif %}
-          <a href="{{ u }}" target="_blank" rel="noopener">{{ lbl }}</a>
-        {% endif %}
-        {% if item.slidesurl %}<a href="{{ item.slidesurl }}" target="_blank" rel="noopener">Slides</a>{% endif %}
-        {% if item.reporturl %}<a href="{{ item.reporturl | prepend: base_path }}" target="_blank" rel="noopener">Report</a>{% endif %}
-        {% if item.bibtexurl %}<a href="{{ item.bibtexurl }}" target="_blank" rel="noopener">BibTeX</a>{% endif %}
       </div>
     </div>
   </div>

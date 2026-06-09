@@ -11,6 +11,11 @@ author: '<u>Ishaan Vohra</u>, Isabella Vesely, Peter Morand, Aubrey Zhang, Willi
 image: "mangle-pic.png"
 image_width: "70%"
 image_height: #
-paperurl: https://indico.cern.ch/event/1323113/contributions/5823576/
+links:
+  - name: Paper
+    url: https://indico.cern.ch/event/1323113/contributions/5823576/
+  # Add more named links as needed, e.g.:
+  # - name: Slides
+  #   url: https://your-slides-url
 citation: #
 ---

@@ -11,8 +11,11 @@ author: 'Ishaan Vohra'
 image: "nusmear-pic.png"
 image_width: "50%"
 image_height: #
-paperurl: https://inspirehep.net/literature/2150455
-paperurl2: https://agenda.hep.wisc.edu/event/1644/contributions/26357/
+links:
+  - name: Paper
+    url: https://inspirehep.net/literature/2150455
+  - name: Slides
+    url: https://agenda.hep.wisc.edu/event/1644/contributions/26357/
 citation: #
 ---
 

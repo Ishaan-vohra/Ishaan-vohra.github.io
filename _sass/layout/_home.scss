@@ -60,6 +60,7 @@ a.site-name:hover {
 .nav-sections {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 1.5rem;
   font-size: 1rem;
   flex-shrink: 0;
@@ -74,6 +75,43 @@ a.site-name:hover {
       color: var(--color-accent);
     }
   }
+}
+
+/* Light/dark toggle button in the masthead */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background: var(--color-bg-secondary);
+  color: var(--color-text);
+  font-size: 0.9rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: color 0.2s ease-out, border-color 0.2s ease-out, background-color 0.2s ease-out;
+
+  &:hover {
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+  }
+
+  .icon-sun  { display: var(--icon-sun-display); }
+  .icon-moon { display: var(--icon-moon-display); }
+}
+
+/* Ease the light/dark switch (only fires on toggle — the theme is set before
+   first paint, so there's no transition on initial load). */
+body,
+.site-header,
+.home-section,
+.blog-card-horizontal,
+.intro-links li,
+.theme-toggle {
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
 }
 
 /* --------------------------------------------------------------------------

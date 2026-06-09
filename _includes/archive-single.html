@@ -53,7 +53,14 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
+    {% if post.links %}
+      {% comment %} Custom, explicitly-named links: each entry has `name` (display text) and `url`. {% endcomment %}
+      <p>
+        {% if post.citation %}Recommended citation: {{ post.citation }}<br />{% endif %}
+        {% for link in post.links %}{% if link.url contains '://' %}{% assign href = link.url %}{% else %}{% assign href = link.url | prepend: base_path %}{% endif %}{% unless forloop.first %} | {% endunless %}<a href="{{ href }}">{{ link.name | default: link.label }}</a>{% endfor %}
+        {% if post.bibtexurl %} | <a href="{{ post.bibtexurl }}">Download Bibtex</a>{% endif %}
+      </p>
+    {% elsif post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Link</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.citation and post.paperurl and post.slidesurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Link</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>

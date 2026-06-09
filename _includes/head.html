@@ -2,6 +2,19 @@
 
 <meta charset="utf-8">
 
+<!-- Apply the saved/OS theme before first paint to avoid a flash. Mirrors the
+     logic in assets/js/_main.js: data-theme="dark" for dark, absent for light. -->
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem('theme');
+      var dark = t === 'dark' ||
+        ((t === null || t === 'system') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      if (dark) document.documentElement.setAttribute('data-theme', 'dark');
+    } catch (e) {}
+  })();
+</script>
+
 {% include seo.html %}
 
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
