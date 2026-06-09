@@ -6,6 +6,7 @@ permalink: https://indico.cern.ch/event/1323113/contributions/5823576/
 excerpt: ''
 date: 2024-04-18
 venue: ' 12th Beam Telescopes and Test Beams Workshop (BTTB)'
+award: 'Oral'
 author: '<u>Ishaan Vohra</u>, Isabella Vesely, Peter Morand, Aubrey Zhang, William Lu, William Soh, Achyuta Rajaram, Daniel Jeon'
 image: "mangle-pic.png"
 image_width: "70%"

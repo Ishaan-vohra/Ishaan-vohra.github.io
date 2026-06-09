@@ -7,9 +7,10 @@ sitemap: false
   Sitemap for https://ishaan-vohra.github.io
   The stable top-level pages are listed explicitly; blog posts are generated
   automatically from the `blog` collection, so new posts appear here on build.
-  Template/demo pages (markdown, archives, talkmap, etc.) are intentionally
-  excluded and disallowed in robots.txt. Projects are rendered inline on the
-  home page (the collection has output: false), so they have no own URLs.
+  Publications and projects are rendered inline on the home page (the projects
+  collection has output: false; publications link out to external venues), so
+  they have no own internal URLs. The academicpages template/demo pages have
+  been removed from the site.
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
@@ -17,12 +18,6 @@ sitemap: false
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>{{ '/publications/' | absolute_url }}</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>{{ '/blog/' | absolute_url }}</loc>

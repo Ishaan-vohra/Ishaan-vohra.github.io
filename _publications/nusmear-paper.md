@@ -6,6 +6,7 @@ permalink: https://inspirehep.net/literature/2150455
 excerpt: ''
 date: 2022-09-08
 venue: ' 14th Conference on the Intersections of Particle and Nuclear Physics (CIPANP)'
+award: 'Oral'
 author: 'Ishaan Vohra'
 image: "nusmear-pic.png"
 image_width: "50%"

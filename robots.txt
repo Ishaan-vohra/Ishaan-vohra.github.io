@@ -1,19 +1,9 @@
 # robots.txt for https://ishaan-vohra.github.io
-# Real content (home, publications, blog, terms) is open to all crawlers.
+# The site is a single-page profile (home) plus the blog and a terms page —
+# all real content is open to crawlers. The academicpages template/demo pages
+# have been removed, so there is nothing left to disallow.
 User-agent: *
 Allow: /
-
-# Leftover academicpages template/demo pages — not real content, keep them
-# out of search results (also excluded from sitemap.xml).
-Disallow: /markdown/
-Disallow: /non-menu-page/
-Disallow: /archive-layout-with-content/
-Disallow: /collection-archive/
-Disallow: /page-archive/
-Disallow: /categories/
-Disallow: /tags/
-Disallow: /talkmap.html
-Disallow: /talkmap/
 
 # Sitemap location
 Sitemap: https://ishaan-vohra.github.io/sitemap.xml

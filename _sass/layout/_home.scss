@@ -289,6 +289,14 @@ a.site-name:hover {
   margin: 0 0 0.35rem;
 }
 
+/* Award/highlight label (e.g. "Oral") — blue + bold to stand out from the
+   amber accent, shown inline before the venue. */
+.pub-award {
+  color: var(--color-award);
+  // font-weight: 700;
+  // font-style: italic;
+}
+
 .pub-summary {
   font-size: 0.9rem;
   line-height: 1.45;
