@@ -5,7 +5,7 @@ excerpt: #
 date: 2026-5-25
 venue: #
 author: 'Ishaan Vohra'
-summary: "Building a proof-of-concept evaluation harness for robot policies under visual domain randomization, supporting multiple robot embodiments and MuJoCo-based benchmarks."
+summary: "Proof-of-concept evaluation harness for robot policies under visual domain randomization; supports multiple robot embodiments and MuJoCo-based benchmarks."
 image: 'pocrobot.png'
 image_width: "70%"
 image_height: #
