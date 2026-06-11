@@ -14,8 +14,8 @@
 
       {% if item.author %}<p class="pub-authors">{{ item.author }}</p>{% endif %}
 
-      {% if item.venue %}
-        <p class="pub-venue">{% if item.award %}<span class="pub-award">{{ item.award }}</span> &bull; {% endif %}<i>{{ item.venue | strip }}</i>{% if item.date %}, {{ item.date | date: "%Y" }}{% endif %}</p>
+      {% if item.venue or item.date or item.award %}
+        <p class="pub-venue">{% if item.award %}<span class="pub-award">{{ item.award }}</span>{% if item.venue or item.date %} &bull; {% endif %}{% endif %}{% if item.venue %}<i>{{ item.venue | strip }}</i>{% endif %}{% if item.venue and item.date %}, {% endif %}{% if item.date %}{{ item.date | date: "%Y" }}{% endif %}</p>
       {% endif %}
 
       {% if item.summary %}<p class="pub-summary">{{ item.summary }}</p>{% endif %}
